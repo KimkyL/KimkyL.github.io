@@ -1,0 +1,91 @@
+*{
+    padding: auto;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+.Nombre {
+    width: 40%;
+    margin: auto;
+    border-radius: 0%;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(70, 95, 58, 0.836);
+
+
+}
+body{
+    background-image: url(https://png.pngtree.com/background/20230612/original/pngtree-wallpaper-of-trees-in-a-field-picture-image_3182163.jpg);
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: #fff; /* Cambia el color del texto para que sea visible sobre el fondo */
+}
+
+nav ul {
+    width: 100%;
+    margin: auto;
+    border-radius: 0%;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(59, 111, 33);
+
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    padding: 20px;
+    width: 150px;
+}
+nav ul a:hover {
+    background-color: rgba(111, 109, 108, 0.985);
+
+}
+.Haroo {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.Haroo .Xiaro {
+    width: 70%;
+    margin: auto;
+}
+.Haroo .Xiaro div {
+    width: 80%;
+    padding: 15px;
+    background-color: rgb(88, 225, 78);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.Haroo .Xiaro img {
+    width: 200px;
+    border-radius: 15px;
+}
+.Haroo .Xiaro{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Haroo .Secundario {
+    width: 30%;
+    text-align: center;
+    color: black;
+}
+.Haroo .Secundario p {
+    background-color: rgb(28, 111, 60);
+    border-radius: 15px;
+    padding: 20px;
+    height: 600px;
+}
+.Piedepagina {
+    background-color: rgb(0, 0, 0);
+    margin-top: 200px;
+}
+.Piedepagina p{
+    padding: 100px;
+
+}
+
