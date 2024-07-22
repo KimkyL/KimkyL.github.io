@@ -25,7 +25,7 @@ body{
 }
 
 nav ul {
-    width: 100%;
+    width: 97%;
     margin: auto;
     border-radius: 0%;
     list-style-type: none;
@@ -63,7 +63,7 @@ nav ul a:hover {
 }
 .Haroo .Xiaro img {
     width: 200px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .Haroo .Xiaro{
     text-align: left;
@@ -86,6 +86,45 @@ nav ul a:hover {
 }
 .Piedepagina p{
     padding: 100px;
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
 
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+    .movil {
+        display: none;
+    }
+}
 }
 
