@@ -7,14 +7,20 @@ Antes de nada muchas gracias por ver todo esto fue creado y documentado por Cesa
 -**Secretos ocultos**: Hay mas de 3 secretos por la pagina asi que suerte si las encuentras!
 
 ## Instalacion
- **esta parte saltala solamente es una pagina que en unos momentos pondre el link*
+Esta parte saltala solamente es una pagina que en unos momentos pondre el link
+
+KimkyL.github.io
+
+Modificado 22/07/2024
 
  ## Uso
-**es de fines educativos asi que si no tiene nada de malo poner sus usos*
+Es de fines educativos asi que si no tiene nada de malo poner sus usos
 
-1.- Por si quieres entrar a tu portal estara siempre disponible cerca del documento
+1.-Por si quieres entrar a tu portal estara siempre disponible cerca del documento
 
 2.-Podras crear tus textos y poder poner recordatorios!
+
+3.-Por alguna razon no entres al Inicio (Recomendacion)
 
 ## Licencia
 Este proyecto esta bajo mi licencia (Espera no tengo ninguna)
@@ -25,4 +31,6 @@ Para cualquier pregunta, contactame desde [cesar01112097@gmail.com] o desde mi n
 Con todo esto gracias!
 
 **Cesar*
+
+![](https://github.com/KimkyL/KimkyL.github.io/blob/main/cinnamoroll.gif)
 
