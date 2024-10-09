@@ -1,4 +1,4 @@
-# Pagina para agendar cosas importantes y documentacion
+# Pagina para agendar cosas importantes y documentacion (Archived)
 Antes de nada muchas gracias por ver todo esto fue creado y documentado por Cesar Augusto y con ayuda de mil videos de youtube
 
 ## Caracteristicas
