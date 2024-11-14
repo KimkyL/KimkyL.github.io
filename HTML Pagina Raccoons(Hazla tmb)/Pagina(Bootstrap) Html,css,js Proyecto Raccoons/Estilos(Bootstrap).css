@@ -1,0 +1,90 @@
+/*
+
+Notas aqui haremos el codigo del css personalizado con bootstrap
+sobre todo esto nomas seria todo y cuando queramos modificar algo se podra desde un css personalizado
+
+*/
+/* Esto es para modificar el html como nosotros queramos asi que cuando queramos que cambie de color*/
+.container-fluid{
+
+    background-color: #ffff;
+    font-size: 20px;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+ 
+}
+/* Cambiar el color del texto */
+.nav-item a{
+
+    color: #ffff;
+}
+/* Cambiar el color del hover*/
+.nav-item a:hover{
+
+    color:aqua
+/* Cambiar el tamaño de los logos, el de Raccoons y FRC,*/
+}
+.navbar-brand img{
+
+    width: 125px;
+    height: auto;
+}
+/* Cambiar el tamaño de las imagenes del slider (va con todas las imagenes). */
+.carousel-item img{
+    width: 1280px;
+    height: 850px;
+}
+/* Cambiar el color del Quienes somos) el bloque unicamente*/
+.Quienes-Somos{
+    background-color: #1c1b1b;
+  
+    height: 500px;
+    
+}
+
+/* Cambiar el color del texto y ajustarlo a tu manera ya sea texto mas grande o que sea mas chico o cambiar el tipo de tipografia.*/
+.titulo{
+    color: rgb(185, 56, 56);
+}
+/* Cambiar el color el content about (Quienes somos) Nota: esta se puede cambiar por el mismo donde dice titulo o borrarlo y solo poner h2 al final*/
+.col-md-6{
+    color:#ffffff;
+    
+}
+
+.Que-Es-FIRST{
+    background-color:#2e2a2a;
+    height: 500px;
+}
+
+
+
+
+.d-flex{
+    background-color: #ffffff;
+}
+
+.texto{
+    background-color: aqua;
+}
+
+.col-md-6 a{
+    background-color: aqua;
+}
+
+.col-md-6 a:hover{
+    background-color: rgb(0, 0, 0);
+}
+/* color hover logos Instagran,github,youtube ademas puedes agandarlos si gustas*/
+.me-4 i:hover{
+    color: bisque;
+}
+/*aqui tienes que cambiarlo XD*/
+.me-4 i{
+    width: 35px;
+}
+/*esta es la parte del color de sigenos en las redes sociales!*/
+.me-5 span{
+    color:aqua;
+}

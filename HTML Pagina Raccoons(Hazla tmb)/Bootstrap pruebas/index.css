@@ -1,0 +1,31 @@
+/* Estilo personalizado para el dropdown expandido */
+.dropdown-menu {
+    display: none;
+    transition: all 0.3s ease-in-out;
+    transform-origin: top;
+}
+
+/* Mostrar el menú dropdown al pasar el ratón sobre el botón */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    transform: scaleY(1);
+}
+
+/* Estilo para que las opciones se vean como una escalera */
+.dropdown-menu a {
+    padding: 25px 10px;
+    transform: translateX(-20px);
+    transition: transform 0.2s ease;
+    margin-left: 20px;
+}
+
+.dropdown-menu a:hover {
+    transform: translateX(0);
+    background-color: #f1f1f1;
+}
+
+.dropdown button{
+    background-color: #ffff;
+    color: red;
+    border-color: black;
+}

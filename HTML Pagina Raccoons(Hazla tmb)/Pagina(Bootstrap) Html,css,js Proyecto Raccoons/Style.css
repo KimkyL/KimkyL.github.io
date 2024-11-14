@@ -1,0 +1,325 @@
+/*
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background: #000;
+    position: fixed; 
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px; /* Añadir un padding para evitar que los elementos se peguen al borde */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Alinear los logos verticalmente */
+}
+
+.logo-image {
+    width: 125px;
+    height: auto; /* Mantener la proporción de los logos */
+    margin-right: 10px; /* Espacio entre los logos */
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: white; /* Color del texto del navbar */
+    text-decoration: none; /* Sin subrayado */
+    padding: 15px; /* Espaciado interno para los enlaces */
+}
+
+.navbar a:hover {
+    background-color: #555; /* Color de fondo al pasar el ratón */
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif /*Cuando quieran cambien esto es para modificar el tipo de letra*/
+}
+
+.navbar a:hover{
+    background: #3f3f3f;
+}
+/*Esto es el navbar es la barrita de navegacion con la que damos click a varias paginas entre ellas la de nosotros first entre*/
+     
+header {
+    position: relative;
+    width: auto;
+    height: 800px; /* Ajusta la altura segun lo ocupas >D */
+    overflow: hidden;
+}
+
+.slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover; /*No me gusta fill ya que siento que le quita mucha proporcion ademas de verse estirada opinion dejenlo como center*/ 
+}
+/* Si leen esto nunca supe como hacer que se centrara la imagen y no topara con la navbar me lleva aun asi 
+les digo si lo cambio pero aun asi no quiero que se vea todo feo.
+*/
+
+
+/* Sección de "¿Que es FIRST?" */
+.about-container {
+    display: flex; /* Usamos Flexbox para organizar los elementos */
+    align-items: center; /* Alinea verticalmente */
+    justify-content: space-between; /* Deja espacio entre los elementos */
+    gap: 20px; /* Espacio entre el texto y la imagen */
+    padding: 20px; /* Añade espacio interior */
+}
+
+.about-image {
+    order: 2; /* Aseguramos que la imagen esté al final, es decir, a la derecha */
+}
+
+.about-text {
+    order: 1; /* Aseguramos que el texto esté a la izquierda */
+    flex: 1; /* Hace que el texto tome el espacio restante */
+    text-align: left; /* Alineación del texto */
+}
+
+.about-text h2 {
+    margin-bottom: 15px; /* Espacio debajo del título */
+    margin-left: 80px;
+}
+
+.about-text p {
+    margin-bottom: 20px; /* Espacio debajo del parrafo */
+}
+
+.about-image img {
+    max-width: 100%; /* La imagen ocupara todo el ancho permitido */
+    height: auto; /* Mantendra la proporción */
+}
+
+.btn2 { /* Este se puede usar para los botones de saber mas ojo esta configurado con el punto A
+    display: inline-block; /* Hacemos que el botón se vea como bloque en linea */
+    background-color: #367f8f; /* Color del fondo del boton */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno del boton */
+    text-decoration: none; /* Quitamos el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negritas */
+    
+}
+
+.btn2:hover {
+    background-color: #367f8f; /* Cambia el color al pasar el mouse */
+}
+
+
+/*Este btn2 no tiene ningua funcion porque bueno no la he declarado al html asi que cuando quiera puedo cambiar
+lo puedes usar para indexar a otras paginas y que estas puedan redirigir a otro lugar*/
+
+/* Sección de "¿Quienes somos?*/
+.about-quienes {
+    display: flex; /* Usamos Flexbox para organizar los elementos */
+    align-items: center; /* Alinea verticalmente */
+    justify-content: space-between; /* Deja espacio entre los elementos */
+    gap: 20px; /* Espacio entre el texto y la imagen */
+    padding: 20px; /* Añade espacio interior */
+}
+
+.acerca-imagen {
+    order: 1; /* Aseguramos que la imagen esté al final, es decir, a la derecha */
+}
+
+.texto {
+    order: 1; /* Aseguramos que el texto esté a la izquierda */
+    flex: 1; /* Hace que el texto tome el espacio restante */
+    text-align: center; /* Alineación del texto */
+}
+
+.texto h2 {
+    margin-bottom: 15px; /* Espacio debajo del título */
+}
+
+.texto p {
+    margin-bottom: 20px; /* Espacio debajo del párrafo */
+}
+
+.acerca-imagen img {
+    max-width: 100%; /* La imagen ocupará todo el ancho permitido */
+    height: auto; /* Mantendrá la proporción */
+}
+
+.btn1 { /* Este se puede usar para los botones de saber mas ojo esta configurado con el punto A
+    display: inline-block; /* Hacemos que el botón se vea como bloque en línea */
+    background-color: #171d1f; /* Color del fondo del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio interno del botón */
+    text-decoration: none; /* Quitamos el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negritas */
+    
+    
+}
+
+.btn1:hover {
+   
+    background-color: #367f8f; /* Cambia el color al pasar el mouse */
+}
+/* Este btn si tiene funcion y lo de arriba tambien pero aun asi cuando gustes modifica esta zona nomas que no te pases*/
+
+.title{
+    
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+
+
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #332cb1;
+    color: #fff;
+    text-decoration: none;
+    background: #332cb1;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.content-sau {
+    padding: 100px;
+    background: #1f1d1d;
+    text-align: left;
+
+}
+
+.content-sau h2{
+    text-align: center;
+}
+
+.about{
+    background: #171717;
+    padding: 75px;
+
+}
+
+
+@media (max-width: 768px) {
+   .title{
+    margin-bottom: 0;
+    font-size: 40px;
+   }
+   .sau{
+    height: 120vh;
+   }
+   
+   .navbar{
+    display: none;
+   }
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px; 
+    text-align: center;
+}
+
+.footer .social-media .title {
+    font-size: 18px; 
+    margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+    margin: 0 8px; 
+    display: inline-block;
+    color: white; /* Para que los íconos sean blancos */
+}
+
+.footer .social-icons a:hover {
+    color: #FFD700; /* Color dorado al hacer hover */
+}
+
+.footer .social-icons a i {
+    font-size: 25px; /* Tamaño de los íconos */
+}
+
+.footer-info {
+    margin-top: 10px; 
+    font-size: 12px;
+}
+
+.footer-info p {
+    margin: 0;
+}
