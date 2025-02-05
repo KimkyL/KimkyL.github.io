@@ -1,0 +1,190 @@
+ <!--Creado por Cesar:
+ Antes de todo gracias por meterme para lanzarme al html aunque durante este proceso, sufri mentalmente aun asi fue divertido hacer
+ la pagina para los Raccoons Asi que si puedes, me das unas papas y coca porque la neta  si esta feo hacer esto pero con que se acomode
+ ya es casi sencilo tener esto listo aun asi el codigo anda un poco desordenado (perdon ahi) pero con que funciona y jala para las funciones
+ jala al 100%-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8741 Raccoons</title> <!-- Este es el nombre del equipo cuando gusten cambienlo porfi!-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"><!--Esto era para sabar las imagenes o logos pero no encuentro ninguno de nada XD !-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Esto es el bootstrap esto lo vamos a cambiar para hacer las paginas responsive.-->
+    <link rel="icon" type="image/png" href="ProyectoRaccoons2025/Recursos/Logo-Raccoons-removido.ico" sizes="256x256"><!-- Este es el ico o bueno el logo de raccoons tambien se puede cambiar o modificar-->
+    <link rel="stylesheet" href="Style.css"> <!-- Este es un link para indexarlo a un css,js,py,pandas o lo que se te venga a la mente-->
+</head>
+<body>
+  <!-- Incluimos los enlaces a Bootstrap para CSS y JavaScript en el head de la página -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!-- Este es el header este es basicamente la cabeza de un documento de word nomas que estilo en html, su funcion
+     es basicamente estar en el top tambien tenemos el footer que es el encabezado igual misma funcion pero al reves
+     con todo esto favor de modificar las imagenes a su placer que tenemos un script que ejecuta y cada rato cambia de imagen
+     sin importar cuantas imagenes pongas uwu
+     -->
+
+
+<header class="py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="ProyectoRaccoons2025/Recursos/Logo-Raccoons removido.png" alt="Logo-Raccoons" class="img-fluid" width="100">
+            <img src="ProyectoRaccoons2025/Recursos/FIRST-Icon.png" alt="Logo-FRC" class="img-fluid" width="100">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.first.org.mx/fm/">First</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ProyectoRaccoons2025/Recursos/Sobre Nosotros Extended/Nosotros(Historia).html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ProyectoRaccoons2025/Recursos/Conctacto/Contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ProyectoRaccoons2025/Recursos/Patrocinios Extended/Patrocinios.html">Ayudas o Patrocinios</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+ <!-- Este es otro header desde abajo del header su funcion.? bueno es la funcion de ser un carussel y con todo esto podemos
+      incluir las imagenes que deseamos el problema seria su renderizado mi recomendacion para que no se vea tann grande,
+      seria por lo menos 1280x920px aunque si es recomendable imagenes paronamicas para, esto.
+     -->
+
+     <header class="video-container">
+        <!-- Video de fondo -->
+        <video autoplay muted loop playsinline>
+            <source src="ProyectoRaccoons2025/Recursos/Testvideo.mp4" type="video/mp4">
+        </video>
+
+        <!-- Capa oscura -->
+        <div class="overlay"></div>
+
+        <!-- Contenido del header -->
+        <div class="header-content">
+            <img src="ProyectoRaccoons2025/Recursos/Raccoons Logo (Blanco).png" alt="Logito Raccoons">
+        </div>
+    </header>
+    
+     
+      <!-- dejamos eso a un video de nuestro equipo de fondo para que sea lo mejor posible y tenemos algo bonito y es un video de bill gates peleando con
+       tux (la mascota de linux del creador linus tolvalds)
+     -->
+    
+   <!-- Seccion "Quienes Somos y que es first" -->
+   <section class="Quienes-Somos py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+                <img src="ProyectoRaccoons2025/Recursos/Logo-Raccoons removido.png" class="img-fluid mb-3" alt="RacccoonsLogo" width="200">
+                <!-- Nota remover el logo de raccoons y poner una de la mayor resolucion posible ya que con el css no pude adjustarlo bien para que no se vea tannn maal-->
+                <h2 class="Raccoons mb-3">¿Quiénes Somos?</h2>
+                <p>
+                    Mapachos, así como nos dicen (también conocidos como el equipo 8741), es un equipo de robótica de FIRST de la Universidad Tecmilenio en Monterrey, Nuevo León.
+                    Nacidos en 2021, nos hemos esforzado por inspirar a estudiantes con pasión por las áreas STEM. Nuestra visión es llegar al mundial FIRST 2025, impulsando a los jóvenes a través de la divulgación tecnológica.
+                </p>
+                <a href="Recursos/Raccoons ¿Quienes somos.pdf" class="btn btn-primary mt-3">¿Quieres saber más de nosotros?</a>
+            </div>
+            
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+                <img src="ProyectoRaccoons2025/Recursos/FIRST-Icon.png" class="img-fluid mb-3" alt="FIRSTLogo" width="200">
+                <h2 class="First mb-3">¿Qué es FIRST?</h2>
+                <p>
+                    FIRST es una organización sin fines de lucro líder a nivel mundial que promueve la educación STEM entre los jóvenes. 
+                    Organiza competencias de robótica en todo el mundo, donde equipos de estudiantes diseñan, construyen y programan robots para realizar tareas específicas. 
+                    Los desafíos cambian cada año, manteniendo las competencias frescas y emocionantes. En la temporada de 2022, fuimos ganadores del premio "Rookie All Star".
+                </p>
+                <a href="Recursos/Raccoons ¿Quienes somos.pdf" class="btn btn-primary mt-3">Entra aquí para ver más sobre FIRST!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Seccion "Logros de los Raccoons" (en desarrollo) 
+<section class="logros-Raccoons py-5">
+    <div class="contai">
+        <h2 class="LogrosFIRST mb-4">Nuestros Logros</h2>
+         Esta zona no se que realmente poner, asi que cuando lean esto digan que estaria bueno poner en mi opiñon seria poner el banner de logros
+    </div>
+</section>
+-->
+
+
+    
+    
+   
+    <footer class="text-lg-start bg-body-tertiary text-muted">
+     
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+     
+        <div class="me-5 d-none d-lg-block">
+          <strong>Siguenos en las Redes Sociales!</strong>
+        </div>
+         
+        
+            <div>
+            <a href="https://www.facebook.com/Racconstic" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/@Raccoonsteamoficial" class="me-4 text-reset">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.tiktok.com/@raccoons_8741" class="me-4 text-reset">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://www.instagram.com/raccoonstic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        
+    </section>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    
+</body>
+</html>
+
+<!-- Notas: 29/09/2024 
+ 1.-Oficialmente, hay varios problemas, no tiene una extension oficial para dispositivos moviles unicamente computadoras.
+ 2.-cuando aumentas la lupa el texto se achica bastante y se ve bastante feo algo que tengo que arreglar pronto y viceversa.
+ 3.-con todo esto cumple con lo nesesario ademas de ser algo amateur la pagina pero sigue dando rentabilidad.
+ 4.-Si de casualidad se modifica el codigo siempre pero siempre DOCUMENTAR! nunca lo dejen vacio porque el que me reemplace no va a saber nada al menos si eres malo l-l
+ -->
+<!-- Notas: 15/10/2024 
+ 1.Acutalmente ya hay extencion para todos tipos de dispositivos gracias a Bootstrap! Genial ahora se puede visualizar desde moviles uwu
+ 2.
+ -->
+ <!-- Notas: 4/2/2025 
+ Hola, si vez esto mira, si he tardado casi 5 meses en hacer esto, pero bueno el chiste es que a este sabiondo, se le olvida hasta incluso donde vive
+ y lo habia dejado al 80% u 90% me falta poco eso si, pero espero en estas proximas 3 horas o mas terminar por completo
+ -->
+<!-- Nota final:
+ Poner el equipo y un organigrama, bastante chulo por cierto, para porfin terminarlo de una vez por todas (Tremenda procastiacion nopuedeser S.S)
+ 
+ -->
+
+
+
+
+ 
