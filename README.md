@@ -1,7 +1,9 @@
-# Pagina Oficial De Raccoons Robotics (Alpha)
-Hola, Si ves esto es porque cree una pagina web para los integrantes del equipo de Raccoons 8741, con HTML Y CSS y un poco de js
+# Pagina Oficial De Raccoons Robotics (V.0)
+Hola, bienvenido a la pagina oficial de los raccoons esta es la version 0 ya no es alpha, (por dios 5 meses para esto) bueno ahora si, se viene fuerte este github tiene la primera de las varias versiones que tendra esta pagina, sientete en casa mientras revisas todo esto que llamo pagina web
+
 Creado por: Cesar Augusto R.
 Lanzado el 02/10/2024
+Actualizado el 4/2/2025
 
 ## Caracteristicas
 -**Pagina para demostracion**: Esta al ser una pagina para demostracion y subir algunos nuevas coas ya que el proyecto actual esta en construccion este sera el lugar donde los mas geeks, pueden trabajar.
