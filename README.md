@@ -22,4 +22,8 @@ Con todo esto gracias!
 -Servidor: Cesar 
 
 ## Me gustan los Cinamorronles jaja.
-![](https://github.com/KimkyL/KimkyL.github.io/blob/main/Carpeta(Archivos%202024%20Sistemas%20de%20la%20informacion%20para%20la%20competitividad)/cinnamoroll.gif)
+![](https://media.tenor.com/1z09XoEOnccAAAAj/cinnamoroll-sanrio.gif)
+
+## Tambien a Hatsune Miku!
+
+![](https://media.tenor.com/m5b0iYXVnqEAAAAM/onyxsoup-hatsune-miku.gif)
