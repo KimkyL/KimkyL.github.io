@@ -5,7 +5,7 @@
         });
 
         // Funcion de descarga para un CV todo pitero
-        function downloadCV() {
+        function DescargadeCV() {
             const link = document.createElement('a');
             link.href = '/Recursos/Portafolio Estilo Hardvard-Cesar Augusto.pdf';
             link.download = '/Recursos/Portafolio Estilo Hardvard-Cesar Augusto.pdf';
