@@ -1,0 +1,61 @@
+
+    
+    @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+        
+        .float {
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        /* Navbar */
+        .glass {
+            background: rgba(14, 13, 13, 0.034);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        /* Tarjetas de presentacion y graficas*/
+        .glass-card {
+            background: rgba(44, 39, 39, 0.192);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .noise {
+            background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.03) 1px, transparent 0);
+            background-size: 20px 20px;
+        }
+        /* Barra de k*/
+        .skill-bar {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.534) 0%, rgba(255,255,255,0.05) 100%);
+            border-radius: 10px;
+            height: 6px;
+            overflow: hidden;
+        }
+        
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #ffffff 0%, rgba(68, 209, 211,1) 100%);
+            border-radius: 10px;
+            transition: width 2s ease-in-out;
+        }
